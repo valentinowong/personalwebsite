@@ -5,84 +5,12 @@
 	</div>
 </div>
 		
-<div id="Profile" class="container">
-	
-	<h2>Profile</h2>
-	
-	<div class="col-md-4">
-		<h3>About me</h3>
-		<p>I'm an aspiring entrepeneur living in NYC. After experiencing the energy and excitement of working at an early stage health-tech startup, I've since immersed myself in the startup world. I'm currently working on improving my own skills in order to combine my passions for nutrition, fitness, and technology.</p>
-	</div>
+		<%= render 'pages/profile' %>
 
-	<div class="col-md-4">
-		<%= image_tag("valentino-headshot.jpg", :alt => "valentino headshot", class:"profile") %>
-	</div>
+		<%= render 'pages/experiences' %>
 
-	<div class="col-md-4">
-		<h3>Details</h3>
-		<p>
-			<strong>Name:</strong><br>
-			Valentino Wong<br>
-			<strong>Age:</strong><br>
-			26 years<br>
-			<strong>Location:</strong><br>
-			New York, NY</p>
-	</div>
+		<%= render 'pages/skills' %>
 
-</div>
+		<%= render 'pages/interests' %>
 
-<div id="Experiences" class="container">
-	<h2>Experiences</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
-
-<div id="Skills" class="container">
-	<h2>Skills</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
-
-<div id="Interests" class="container">
-	<h2>Interests</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
-
-<div id="Contact" class="container">
-	<h2>Contact</h2>
-		<div class="row">
-			<div class="col-md-4">
-				<ul class="no-bullets">
-					<li>
-						<%= link_to(image_tag("facebook.png") + " http://facebook.com/valentino.k.wong", "http://www.facebook.com/valentino.k.wong") %>
-					</li>
-					<li>
-						<%= link_to(image_tag("twitter.png") + " https://twitter.com/Wong_Val", "https://twitter.com/Wong_Val") %> 
-					</li>
-				</ul>
-			</div>
-			<div class="col-md-4">
-				<ul class="no-bullets">
-					<li>
-						<%= link_to(image_tag("instagram.png") + " http://instagram.com/vkw624", "http://www.instagram.com/vkw624") %> 
-					</li>
-					<li>
-						<%= link_to(image_tag("linkedin.png") + " http://lnkd.in/_QYred", "http://lnkd.in/_QYred") %> 
-					</li>
-				</ul>
-			</div>
-		</div>
-</div>
+		<%= render 'pages/contact' %>
